@@ -15,6 +15,11 @@ I created:
 - Data quality testing and error simulation to mimic real-world inconsistencies
 - Future plans for analyzing trends in book purchases, genres, and customer behavior
 
+## Files 
+
+- Book_Nook.db: This is the SQLite database generated using Python. It contains three clean tables: Books, Customers, and Purchases. To explore the contents, download the file and open it using a database browser such as DB Browser for SQLite or query it directly using Python or SQL tools.
+- Book_Insights_Project.sql: This file is a SQL script to manually recreate the same three tables and insert sample data (same in the Book_Nook.db), showcasing knowledge of raw SQL.
+
 ## Tools & Technologies
 
 - Python (Pandas, SQLite, Faker)
