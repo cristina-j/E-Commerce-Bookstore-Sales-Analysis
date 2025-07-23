@@ -9,7 +9,7 @@ This project simulates a small independent bookstore using real book data of all
 I created:
 
 - A clean database that includes the books, customers, and purchases table
-- SQL tables created both manually and programmatically
+- SQL tables created both manually and using Python
 - Data quality testing and error simulation to mimic real-world inconsistencies
 - Future plans for analyzing trends in book purchases, genres, and customer behavior
 
