@@ -19,6 +19,8 @@ I created:
 
 - Book_Nook.db: This is the SQLite database generated using Python. It contains three clean tables: Books, Customers, and Purchases. To explore the contents, download the file and open it using a database browser such as DB Browser for SQLite or query it directly using Python or SQL tools.
 - Book_Insights_Project.sql: This file is a SQL script to manually recreate the same three tables and insert sample data (same in the Book_Nook.db), showcasing knowledge of raw SQL.
+- Book_Nook_Database.py: This is a Python script that creates the clean Book_Nook database, including data extraction, transformation, and table creation.
+- 
 
 ## Tools & Technologies
 
