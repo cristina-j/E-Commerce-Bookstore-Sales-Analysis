@@ -21,8 +21,8 @@ I created:
 - `Book_Insights_Project.sql`: This file is a SQL script to manually recreate the same three tables and insert sample data (same in the Book_Nook.db), showcasing knowledge of raw SQL.
 - `Book_Nook_Database.py`: This is a Python script that creates the clean Book_Nook database, including data extraction, transformation, and table creation.
 - `Goodreads_Library_Export`: This is raw Goodreads export of all the books I have read. It's used as the starting dataset
-- `Combining_Excel_Files.py`: This is a Python script reads the clean csv files for the `Books`, `Customers`, and `Purchases` tables and puts them into one Excel file called `Book_Nook_Dataset.csv`
-- `Book_Nook_Dataset.csv`: 
+- `Book_Nook_Dataset.py`: This is a Python script reads the clean csv files for the `Books`, `Customers`, and `Purchases` tables and puts them into one Excel file called `Book_Nook_Dataset.csv`
+- `Book_Nook_Dataset.csv`: Excel file with clean datasets
 
 ## Tools & Technologies
 
