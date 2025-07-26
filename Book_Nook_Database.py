@@ -38,8 +38,91 @@ df_books.columns = ['Book ID', 'Title', 'Author', 'Format', 'Page Count', 'Publi
 # The IDs in the Book ID column are long, and I want to change it so it is shorter starting from the number 1
 df_books['Book ID'] = range(1, len(df_books) + 1)
 
-# I want to add a new column called Genre that is not in the original csv file. This column will be empty
-df_books['Genre'] = ""
+# I realized that the Genre column is empty for each book, and when I make changes to it and save those changes, 
+# the next time I run the script, those changes disappear
+# I need to assign books a genre using a dictionary based on the authors because there are less authors to books
+# This will also default to Romance if author is not found in the dictionary
+author_genre = {
+    'B.K. Borison': 'Romance',
+    'Harper L. Woods': 'Paranormal Romance',
+    'Aurora Ascher': 'Paranormal Romance',
+    'Penelope Sky': 'Dark Romance',
+    'J.T. Geissinger': 'Dark Romance',
+    'Ana Huang': 'Romance',
+    'Kaylie Smith': 'Fantasy',
+    'Lyla Sage': 'Romance',
+    'Joya Goffney': 'Romance',
+    'Elsie Silver': 'Romance',
+    'Sierra Simone': 'Dark Romance',
+    'Ali Hazelwood': 'Romance',
+    'Lexi C. Foss': 'Paranormal Romance',
+    'N.J. Gray': 'Romance',
+    'Rebecca Yarros': 'Romantasy',
+    'C.M. Nasosta': 'Paranormal Romance',
+    'Emily McIntire': 'Romance',
+    'Grace McGinty': 'Romance',
+    'G.M. Fairy': 'Paranormal Romance',
+    'S.J. Tilly': 'Dark Romance',
+    'Jessica  Peterson': 'Romance',
+    'Navessa Allen': 'Romance',
+    'Emily Rath': 'Romance',
+    'Jaymin Eve': 'Paranormal Romance',
+    'Cate C. Wells': 'Paranormal Romance',
+    'Jenika Snow': 'Romance',
+    'Sara Cate': 'Dark Romance',
+    'Sadie Kincaid': 'Romance',
+    'Jere Anthony': 'Romance',
+    'Hannah Grace': 'Romance',
+    'Holly Wilde': 'Paranormal Romance',
+    'Mallory Marlowe':	'Romance',
+    'Lily Mayne': 'Paranormal Romance',
+    'Ashley Poston': 'Romance',
+    'Tate McKirk': 'Paranormal Romance',
+    'Siggy Shade': 'Paranormal Romance',
+    'Rebecca J. Caffery': 'Romance',
+    'Ivy Fairbanks': 'Romance',
+    'Alexis Hall': 'Romance',
+    'Abby Jimenez': 'Romance',
+    'Jay Kristoff':	'Fantasy',
+    'Jessica Joyce': 'Romance',
+    'Tomi Adeyemi': 'Fantasy',
+    'M. James': 'Dark Romance',
+    'Christina Lauren': 'Romance',
+    'Lauren Asher':	'Romance',
+    'Sharon C. Cooper': 'Romance',
+    'Olivia Atwater': 'Romance',
+    'Mia Sheridan': 'Romance',
+    'Carian Cole': 'Romance',
+    'Jennifer L. Armentrout': 'Romantasy',
+    'Sarah J. Maas': 'Romantasy',
+    'Hanya Yanagihara': 'Literary Fiction',
+    'Danielle L. Jensen': 'Romantasy',
+    'Carissa Broadbent': 'Romantasy',
+    'Tracy Wolff': 'Paranormal Romance',
+    'Alexandria Bellefleur': 'Romance',
+    'Madeline Miller': 'Fantasy',
+    'Elizabeth Acevedo': 'Romance',
+    'Jasmine Guillory':	'Romance',
+    'Safia Elhillo': 'Contemporary Fiction',
+    'Jen Wang': 'Graphic Novel',
+    'Alexis Daria': 'Romance',
+    'Bolu Babalola': 'Romance',
+    'K.M. Moronova': 'Dark Romance',
+    'Alexa  Martin': 'Romance',
+    'Tiffany D. Jackson': 'Contemporary Fiction',
+    'Elle Kennedy':	'Romance',
+    'Morgan Bridges': 'Dark Romance',
+    'Tessa Bailey': 'Romance',
+    'Helen Hoang': 'Romance',
+    'Lucy Score': 'Romance',
+    'John Green': 'Romance',
+    'V.E. Schwab': 'Fantasy',
+    'Emily Henry': 'Romance',
+    'Casey McQuiston': 'Romance'
+}
+
+df_books['Genre'] = df_books['Author'].apply(lambda author: author_genre.get(author.strip(), 'Romance'))
+
 
 # I want to add another column called Price and create random prices for each book between $5.99 and $29.99
 min_price = 5.99
