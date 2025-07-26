@@ -9,7 +9,7 @@ This project simulates a small independent bookstore using:
 - Fake customer and purchase data generated in Python using the Faker library
 
 ## Updates Made to Files
-- `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author
+- `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author.
 - `Book_Nook.db`: Updated the Format column with correct values:
     - 'Kindle Edition' --> 'eBook', 'ebook' --> 'eBook',
     - Book titles that should be 'Paperback' or 'Hardcover' but were not
