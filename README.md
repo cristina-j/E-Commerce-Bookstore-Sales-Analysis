@@ -4,16 +4,17 @@ A personal data analyst project that uses a fictional bookstore database to show
 
 ## Project Description
 
-This project simulates a small independent bookstore using real book data of all the books I have read that I have tracked on Goodreads and fake customers and purchase data generated with Python.
+This project simulates a small independent bookstore using:
+- Real book data exported from my Goodreads reading history
+- Fake customer and purchase data generated in Python using the Faker library
 
-The SQLite database (`Book Nook.db`) contains the `Books`, `Customers`, and `Purchases` tables, all created using Python. The `Book_Insights_Project.sql` file includes manually written SQL code to recreate the same schema and structure, showcasing proficiency in both programming and manual database design.
-
-I created:
-
-- A clean database that includes the books, customers, and purchases table
-- SQL tables created both manually and using Python
-- Data quality testing and error simulation to mimic real-world inconsistencies
-- Future plans for analyzing trends in book purchases, genres, and customer behavior
+## Updates Made to Files
+- `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author
+- `Book_Nook.db`: Updated the Format column with correct values:
+    - 'Kindle Edition' --> 'eBook', 'ebook' --> 'eBook',
+    - Book titles that should be 'Paperback' or 'Hardcover' but were not
+    - Corrections made to invalid data (Page Count for row 63 was 0, but updated it to 196)
+ 
 
 ## Files 
 
