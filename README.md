@@ -24,6 +24,7 @@ This project simulates a small independent bookstore using:
 - `Goodreads_Library_Export`: This is the raw Goodreads export of all the books I have read. It's used as the starting dataset.
 - `Book_Nook_Dataset.py`: This is a Python script that reads the clean csv files for the `Books`, `Customers`, and `Purchases` tables and puts them into one Excel file called `Book_Nook_Dataset.csv`
 - `Book_Nook_Dataset.csv`: Excel file with clean datasets
+- `Data_Discrepancies.sql`: Highlights intentional discrepancies to reflect real-world data and to showcase my skill in cleaning data using SQL.
 
 ## Tools & Technologies
 
