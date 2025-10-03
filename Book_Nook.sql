@@ -221,8 +221,6 @@ INSERT INTO Customers (Customer_ID, First_Name, Last_Name, Email, Phone_Number, 
 (49, 'Brian',	'Miller', 'brianmiller64@gmail.com', '315-245-6006', 59,	'Male',	'NJ'),
 (50, 'Caitlin',	'Williams',	'caitlinwilliams14@gmail.com', '441-351-3602',	51,	'Female', 'KS');
 
-
-
 INSERT INTO Purchases (Purchase_ID, Customer_ID, Book_ID, Quantity, Purchased_Date, Total_Amount) VALUES
 (1,	23,	1,	3, '2025-01-26', 36.54),
 (2,	24,	64,	1, '2025-02-25', 19.44),
