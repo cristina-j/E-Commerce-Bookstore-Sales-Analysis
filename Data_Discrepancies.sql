@@ -54,7 +54,7 @@ Location
 From Customers 
 WHERE Customer_ID IN (21, 22);
 
--- Purchases Table: Adding NULL values -- 
+-- Purchases Table: Adding out-of-range purchase dates -- 
 UPDATE Purchases 
 SET Purchases_Date = '2023-06-01'
 WHERE Purchases_ID IN (2);
