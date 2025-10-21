@@ -13,21 +13,15 @@ A local online bookstore noticed slower sales in early 2025. They wanted to unde
 ## Proposed Solution
 To address this, I created a fictional relational database that models real bookstore operations. I developed tables for books, customers, and purchases, then used SQL to analyze trends in spending, genre popularity, and format preferences. By combining data cleaning, querying, and visualization, I transformed raw transactional data into actionable insights a small business could realistically use to guide inventory, pricing, and marketing decisions.
 
-## Impact
-- Romance and the sub genre Dark Romance and Paranormal Romance dominate both total purchase count and total revenue which indicates a strong customer preference and a repeat interest in these genres.  
-- Paperbacks lead in revenue and sales volume, accounting for nearly half of all purchases. 
-- eBooks perform well in volume but contribute less revenue due to lower pricing which suggests a high demand for this format but the price margin may be low.
-- Hardcovers are the least purchased book format even though it has the highest average price.
-- Top authors acccount for a large portion of revenue and can be an opportunity to ceate collections or exclusive promotions that features bestselling authors.
+## Results and Business Recommendation
+Insights from the first six months of 2025 show that Romance and its subgenre dominates both the sales and revenue, confirming strong customer loyatly and demand in this genre. Paperbacks lead in overall purchases, while eBooks perform well among price-conscious readers. Hardcovers are high in price, but low in sales and revenue which shows that there can be a chance for it to be suited for premium offerings. Contemporary and Literary Fiction performs lower than other genres which highlights areas for strategic promotion. Considering that January saw the most in sales and revenue, it can be said that there was a post-holiday dip in sales followed by steady performnce through mid-year which suggests room for engagement-driven campaigns to sustain momentum and get customers engaged with the bookstore again.
 
+![Total Revenue by Genre](<img width="788" height="584" alt="Screenshot 2025-10-21 at 6 02 50 PM" src="https://github.com/user-attachments/assets/2126a2b0-fc5d-4d3b-ba0e-7ccdd308ead3" />)
 
-## Updates Made to Files
-- `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author.
-- `Book_Nook.db`: Updated the Format column with correct values:
-    - 'Kindle Edition' --> 'eBook', 'ebook' --> 'eBook',
-    - Book titles that should be 'Paperback' or 'Hardcover' but were not
-    - Corrections made to invalid data (Page Count for row 63 was 0, but updated it to 196)
- 
+## Tools & Technologies
+
+- Python (Pandas, SQLite, Faker)
+- SQL (SQLite + MySQL)
 
 ## Explanation of Files 
 
@@ -39,8 +33,9 @@ To address this, I created a fictional relational database that models real book
 - `Book_Nook_Dataset.csv`: Excel file with clean datasets
 - `Data_Discrepancies.sql`: Highlights intentional discrepancies to reflect real-world data and to showcase my skill in cleaning data using SQL.
 
-## Tools & Technologies
-
-- Python (Pandas, SQLite, Faker)
-- SQL (SQLite + MySQL)
-- GitHub for version control
+## Updates Made to Files
+- `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author.
+- `Book_Nook.db`: Updated the Format column with correct values:
+    - 'Kindle Edition' --> 'eBook', 'ebook' --> 'eBook',
+    - Book titles that should be 'Paperback' or 'Hardcover' but were not
+    - Corrections made to invalid data (Page Count for row 63 was 0, but updated it to 196)
