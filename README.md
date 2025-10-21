@@ -14,7 +14,7 @@ To address this, I created a fictional relational database that models real book
 ## Impact
 - Romance and the sub genre Dark Romance and Paranormal Romance dominate both total purchase count and total revenue which indicates a strong customer preference and a repeat interest in these genres.  
 - Paperbacks lead in revenue and sales volume, accounting for nearly half of all purchases. 
-- Ebooks perform well in volume but contribute less revenue due to lower pricing which suggests a high demand for this format but the price margin may be low.
+- eBooks perform well in volume but contribute less revenue due to lower pricing which suggests a high demand for this format but the price margin may be low.
 - Hardcovers are the least purchased book format even though it has the highest average price. 
 
 
