@@ -11,6 +11,12 @@ A local online bookstore noticed stagnant sales growth and declining engagement 
 ## Proposed Solution
 To address this, I created a fictional relational database that models real bookstore operations. I developed tables for books, customers, and purchases, then used SQL to analyze trends in spending, genre popularity, and format preferences. By combining data cleaning, querying, and visualization, I transformed raw transactional data into actionable insights a small business could realistically use to guide inventory, pricing, and marketing decisions.
 
+## Impact
+- Romance and the sub genre Dark Romance and Paranormal Romance dominate both total purchase count and total revenue which indicates a strong customer preference and a repeat interest in these genres.  
+- Paperbacks lead in revenue and sales volume, accounting for nearly half of all purchases. 
+- Ebooks perform well in volume but contribute less revenue due to lower pricing which suggests a high demand for this format but the price margin may be low.
+- Hardcovers are the least purchased book format even though it has the highest average price. 
+
 
 ## Updates Made to Files
 - `Book_Nook_Database.py`: Added a few lines so that the genre column is automatically assigned based on the author.
