@@ -2,10 +2,12 @@
 
 The Book Insights Project is a data analytics case study built around a fictional online bookstore inspired by my personal reading data from 2024–2025. The goal of this project is to simulate how a real-world data analyst might use data analysis to uncover insights that drive better business decisions in the retail and e-commerce industry.
 
+This analysis focuses on the first six months of 2025, providing an early look at revenue trends, customer engagement, and sales performance across genres, formats, and authors. 
+
 
 ## Business Problem
 
-A local online bookstore noticed stagnant sales growth and declining engagement among repeat customers. They wanted to understand which genres and authors drive the most purchases, how different book formats perform (paperback, eBook, hardcover), and how customer preferences shift over time.
+A local online bookstore noticed slower sales in early 2025. They wanted to understand which genres and authors drive the most purchases, how different book formats perform (paperback, eBook, hardcover) with their customers, and what monthly sales trends reveal about their customers behavior in the first half of the year.
 
 
 ## Proposed Solution
@@ -15,7 +17,8 @@ To address this, I created a fictional relational database that models real book
 - Romance and the sub genre Dark Romance and Paranormal Romance dominate both total purchase count and total revenue which indicates a strong customer preference and a repeat interest in these genres.  
 - Paperbacks lead in revenue and sales volume, accounting for nearly half of all purchases. 
 - eBooks perform well in volume but contribute less revenue due to lower pricing which suggests a high demand for this format but the price margin may be low.
-- Hardcovers are the least purchased book format even though it has the highest average price. 
+- Hardcovers are the least purchased book format even though it has the highest average price.
+- Top authors acccount for a large portion of revenue and can be an opportunity to ceate collections or exclusive promotions that features bestselling authors.
 
 
 ## Updates Made to Files
