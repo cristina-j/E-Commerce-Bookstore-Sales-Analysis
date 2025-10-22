@@ -1,6 +1,6 @@
-# Book-Insights-Project
+# E-Commerce Bookstore Sales Analysis
 
-The Book Insights Project is a data analytics case study built around a fictional online bookstore inspired by my personal reading data from 2024–2025. The goal of this project is to simulate how a real-world data analyst might use data analysis to uncover insights that drive better business decisions in the retail and e-commerce industry.
+The E-Commerce Bookstore Sales Analysis is a data analytics case study built around a fictional online bookstore inspired by my personal reading data from 2024–2025. The goal of this project is to simulate how a real-world data analyst might use data analysis to uncover insights that drive better business decisions in the retail and e-commerce industry.
 
 This analysis focuses on the first six months of 2025, providing an early look at revenue trends, customer engagement, and sales performance across genres, formats, and authors. 
 
