@@ -16,7 +16,8 @@ To address this, I created a fictional relational database that models real book
 ## Results and Business Recommendation
 Insights from the first six months of 2025 show that Romance and its subgenre dominates both the sales and revenue, confirming strong customer loyatly and demand in this genre. Paperbacks lead in overall purchases, while eBooks perform well among price-conscious readers. Hardcovers are high in price, but low in sales and revenue which shows that there can be a chance for it to be suited for premium offerings. Contemporary and Literary Fiction performs lower than other genres which highlights areas for strategic promotion. Considering that January saw the most in sales and revenue, it can be said that there was a post-holiday dip in sales followed by steady performnce through mid-year which suggests room for engagement-driven campaigns to sustain momentum and get customers engaged with the bookstore again.
 
-<img width="788" height="584" alt="Screenshot 2025-10-21 at 6 02 50 PM" src="https://github.com/user-attachments/assets/6926814a-4b01-4b21-ade0-1eeaa4cfc3c4" />
+<img width="788" height="584" alt="Screenshot 2025-10-21 at 6 02 50 PM" src="https://github.com/user-attachments/assets/dc722c90-0c01-47e8-b99d-6d646dbd78d4" />
+
 
 
 ## Tools & Technologies
