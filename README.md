@@ -30,4 +30,4 @@ Insights from the first six months of 2025 show that Romance and its subgenre do
 - `Book_Nook.sql`: This file is a SQL script to manually recreate the same three tables and insert sample data (same in the Book_Nook.db), showcasing knowledge of raw SQL.
 - `Goodreads_Library_Export`: This is the raw Goodreads export of all the books I have read. It's used as the starting dataset.
 - `Book_Nook_Dataset.csv`: Excel file with clean datasets
-- `Data_Discrepancies.sql`: Highlights intentional discrepancies to reflect real-world data and to showcase my skill in cleaning data using SQL.
+- `E-Commerce Book Sales Analysys.ipynb`: A complete analysis for this project. The notebook explores sales performance, customer behavior, and format preferences to identify actionable insights
